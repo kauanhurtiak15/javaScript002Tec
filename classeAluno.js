@@ -26,6 +26,7 @@ class Aluno{
         }
 }
         exibirRelatorio(){
+            console.log (`===============================`);
             console.log(`Relatorio do aluno ${this.nome}`);
             console.log(`Matricula ${this.matricula}`);
             console.log(`Media Final ${this.calcularMedia()}`)
@@ -44,6 +45,10 @@ const turma = [
 
 
 console.log(turma[1]);
+
+for (let i = 0; 1 < turma.length; i++ ){
+    turma [1].exibirRelatorio();
+}
 
 // let aluno1 = new Aluno(`Luiz`, 850850, [7.2, 6.5, 3.3]);
 // console.log(aluno1.calcularMedia());
